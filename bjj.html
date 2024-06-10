@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Brazilian Jiu-Jitsu</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main_1.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+        <style>
+            body {
+                font-family: 'Times new roman', sans-serif;
+                font-weight: bold;
+            }
+        </style>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="symbol"><img src="images/mason.png" alt="" /></span><span class="title">Mason Mentor</span>
+								</a>
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<h1>Brazilian jiu-jitsu</h1>
+							<span class="image main"><img src="images/bj" alt="" /></span>
+							<p class ="text" >
+                                
+                                
+                                
+                                
+                                
+					</div>
+                    <script>
+                        const div = document.querySelector(".text");
+                        const text = "Brazilian Jiu-Jitsu (BJJ) is a martial art and combat sport based on ground fighting and submission holds. It focuses on the skill of controlling one's opponent, gaining a dominant position, and using a number of techniques to force them into submission via joint locks or chokeholds."+
+
+"At a university like George Mason, a Brazilian Jiu-Jitsu club or program would typically offer students the opportunity to learn and practice BJJ regardless of their skill level. Such a program would be expected to include:"+
+
+"Regular Training Sessions: These would be organized for members to practice techniques, sparring, and improve their overall BJJ skills"+
+
+"Qualified Instructors: The club would likely have experienced instructors, possibly with significant ranks in BJJ, to teach and guide students.";
+
+function textTypingEffect(element, text, i=0){
+    element.textContent += text[i];
+
+    if(i===text.length - 1){
+        return;
+    }
+    setTimeout(() => textTypingEffect(element, text, i+1),15);
+        
+    }
+ textTypingEffect(div, text)
+                    </script>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Chess</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main_1.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+        <style>
+            body {
+                font-family: 'Times new roman', sans-serif;
+                font-weight: bold;
+            }
+        </style>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="symbol"><img src="images/mason.png" alt="" /></span><span class="title">Mason Mentor</span>
+								</a>
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<h1>Chess</h1>
+							<span class="image main"><img src="images/esports" alt="" /></span>
+							<p class ="text" >
+                                
+                                
+                                
+                                
+                                
+					</div>
+                    <script>
+                        const div = document.querySelector(".text");
+                        const text = "The Chess and Board Games Club at George Mason University (GMU) is a hub for students who share a passion for strategic thinking and the timeless game of chess. This club provides a welcoming and intellectually stimulating environment where students from diverse backgrounds and skill levels come together to play, learn, and improve their chess abilities. Regular meetings and events foster a community spirit, allowing members to engage in friendly competition, while also delving into deeper aspects of the game, like opening theory, mid-game tactics, and endgame strategies"+
+"The club participates in intercollegiate tournaments, offering opportunities for competitive play against other universities, which not only challenges the members' skills but also promotes GMU in the broader chess community. Beyond the competitive aspect, the club is instrumental in enhancing critical thinking, problem-solving skills, and concentration among its members, skills that are invaluable in academic and professional life. "
+function textTypingEffect(element, text, i=0){
+    element.textContent += text[i];
+
+    if(i===text.length - 1){
+        return;
+    }
+    setTimeout(() => textTypingEffect(element, text, i+1),15);
+        
+    }
+ textTypingEffect(div, text)
+                    </script>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

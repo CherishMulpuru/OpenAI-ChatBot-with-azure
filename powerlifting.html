@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Power lifiting</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main_1.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+        <style>
+            body {
+                font-family: 'Times new roman', sans-serif;
+                font-weight: bold;
+            }
+        </style>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="symbol"><img src="images/mason.png" alt="" /></span><span class="title">Mason Mentor</span>
+								</a>
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<h1>Power lifting</h1>
+							<span class="image main"><img src="images/dance.jpg" alt="" /></span>
+							<p class ="text" >
+                                
+                                
+                                
+                                
+                                
+					</div>
+                    <script>
+                        const div = document.querySelector(".text");
+                        const text = "At George Mason University (GMU), breakdancing represents not just a dance form but a culture that fosters creativity, physical fitness, and community engagement. The university likely has student organizations or clubs dedicated to hip-hop and breakdancing, providing a platform for students to learn, practice, and showcase their skills. These groups might organize workshops, battles, and performances, both on-campus and in the wider community, offering students a chance to engage with the vibrant and diverse world of breakdancing"+
+
+"Breakdancing is known for its unique elements like top rock, downrock, power moves, and freezes. Top rock is the standing portion of the dance, involving rhythmic steps and movements. Downrock includes footwork performed on the floor. Power moves are acrobatic and require momentum, speed, endurance, and control, like windmills and headspins. Freezes are poses that breakers hold to accentuate the beat and rhythm of the music."+
+
+"In an academic setting like GMU, breakdancing also serves an educational purpose. It can be a medium for students to explore and understand the cultural and historical contexts of hip-hop. By engaging in breakdancing, students at GMU not only enhance their physical and artistic skills but also deepen their appreciation for the cultural significance and global impact of hip-hop culture.";
+
+function textTypingEffect(element, text, i=0){
+    element.textContent += text[i];
+
+    if(i===text.length - 1){
+        return;
+    }
+    setTimeout(() => textTypingEffect(element, text, i+1),15);
+        
+    }
+ textTypingEffect(div, text)
+                    </script>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Power lifting</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main_1.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+        <style>
+            body {
+                font-family: 'Times new roman', sans-serif;
+                font-weight: bold;
+            }
+        </style>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="symbol"><img src="images/mason.png" alt="" /></span><span class="title">Mason Mentor</span>
+								</a>
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<h1>Power lifting</h1>
+							<span class="image main"><img src="images/powerli.png" alt="" /></span>
+							<p class ="text" >
+                                
+                                
+                                
+                                
+                                
+					</div>
+                    <script>
+                        const div = document.querySelector(".text");
+                        const text = "George Mason University has two clubs for weightlifting enthusiasts: the Olympic Weightlifting Club and the Mason Powerlifting Club. The Olympic Weightlifting Club focuses on classic lifts like the snatch and clean and jerk, offering coaching and a community of lifters. The Mason Powerlifting Club caters to students interested in powerlifting and strength training, preparing athletes for competitions and facilitating training partnerships.";
+
+function textTypingEffect(element, text, i=0){
+    element.textContent += text[i];
+
+    if(i===text.length - 1){
+        return;
+    }
+    setTimeout(() => textTypingEffect(element, text, i+1),15);
+        
+    }
+ textTypingEffect(div, text)
+                    </script>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
